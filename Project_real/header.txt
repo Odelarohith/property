@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Property</title>
+
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/utility.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <!-- THEME COLOR -->
+    <link href="assets/css/colors/blue.css" type="text/css" media="all" rel="stylesheet" id="colors" />
+
+    <!-- MAIN MENU -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/menu/css/bootstrap-extended.css">
+
+    <!-- OWL CAROUSEL SLIDER -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/owl.carousel/css/owl.carousel.min.css">
+
+    <!-- SLICK SLIDER -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick-theme.css">
+
+    <!-- FANCY BOX -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/fancybox/jquery.fancybox.min.css">
+
+    <!-- FILE-UPLOADER -->
+    <link rel="stylesheet" href="assets/vendors/fileuploader/css/jquery.fileuploader.css" media="all">
+    <link rel="stylesheet" href="assets/vendors/fileuploader/css/jquery.fileuploader-theme-thumbnails.css" media="all">
+
+    <!-- Begin: HTML5SHIV FOR IE8 -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/vendors/js/html5shiv.js"></script>
+      <script src="assets/vendors/js/respond.js"></script>
+    <![endif]-->
+    <!-- end: HTML5SHIV FOR IE8 -->
+</head>
+
+<body data-menu="header-main-menu" class="bg-white body-main-menu header-main-menu">
+
+    <!--
+    #################################
+        - Begin: HEADER -
+    #################################
+    -->
+    <header class="main-header bg-light-2 box-shadow-1">
+
+        <!-- TOGGLE -->
+        <a href="#" class="nav-link nav-menu-main menu-toggle btn btn-base rounded-0">
+            <i class="fa fa-bars"></i>
+        </a>
+        <!-- /TOGGLE -->
+
+        <!-- NAVIGATION -->
+        <div role="navigation" data-menu="menu-wrapper" class="header-navbar navbar bg-base-dark navbar-fixed box-shadow-3">
+            
+            <!-- MENU CONTENT -->
+            <div data-menu="menu-container" class="container navbar-container main-menu-content">
+
+                <ul id="main-menu-navigation" data-menu="menu-navigation" class="nav navbar-nav">
+				<li data-menu="dropdown" class="dropdown nav-item">
+                        <a href="#" class="nav-link"><img src="assets/images/logo1.png" height="25px"; width="100%"></a>
+                    </li>
+                    <li data-menu="dropdown" class="dropdown nav-item active">
+                        <a href="#" data-toggle="dropdown" class="nav-link"><i class="fa fa-home"></i> <span>Home</span></a>
+                    </li>
+                    <li data-menu="dropdown" class="dropdown nav-item">
+                        <a href="#" data-toggle="dropdown" class="nav-link"><i class="fa fa-users"></i> <span>About us</span></a>
+                    </li>
+               <li data-menu="dropdown" class="dropdown nav-item">
+                        <a href="#" data-toggle="dropdown" class="nav-link"><i class="fa fa-users"></i> <span>Contact</span></a>
+                    </li>
+                </ul>
+				<ul class="nav navbar-nav navbar-right">
+				
+				 <li data-menu="dropdown" class="dropdown nav-item">
+                        <a href="#" data-toggle="dropdown" class="nav-link"><i class="fa fa-share-square-o"></i> <span>Submit Property</span></a>
+                    </li>
+					<li data-menu="dropdown" class="dropdown nav-item">
+                        <a href="#" data-toggle="dropdown" class="nav-link"><i class="fa fa-sign-in"></i> <span>Login</span></a>
+                    </li>
+               <li data-menu="dropdown" class="dropdown nav-item">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="fa fa-id-badge"></i><span>Rohith Odela</span></a>
+						 <ul class="dropdown-menu">
+                            <li>
+                                <a href="agencies.html" data-toggle="dropdown" class="dropdown-item">Logout</a>
+                            </li>
+                        </ul>
+                    </li>
+					</ul>
+					
+            </div>
+            <!-- /MENU CONTENT -->
+
+        </div>
+        <!-- /NAVIGATION -->
+
+    </header>
+    <!-- End: HEADER -
+    ################################################################## -->
